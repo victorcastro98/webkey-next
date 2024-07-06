@@ -31,9 +31,9 @@ export default function Home() {
         Dá uma olhada!
         <Image className="h-[15px] animate-bounce" src={iconScroll} alt="logo" />
       </button>
-      <div ref={scrollRef} className="flex flex-col w-full my-10 items-center">
+      <div ref={scrollRef} className="flex flex-col w-full my-10 items-center justify-center">
         
-        <div className="pl-10">
+        <div className="lg:pl-36 w-full flex justify-center">
           <Card
           title="Tenha seu Brand Site"
           list={[
@@ -46,7 +46,7 @@ export default function Home() {
         </div>
           
         
-          <div className="w-full flex flex-row-reverse pr-10">
+          <div className="w-full flex flex-row-reverse justify-center lg:pr-36">
           <Card
           title="Montamos sua loja virtual"
           list={[
@@ -78,7 +78,7 @@ export default function Home() {
       font-semibold rounded-full cursor-pointer text-center">
         ENTRE EM CONTATO PARA SABER MAIS E FAZER ORÇAMENTO GRATUITO!
       </a>
-      <div className="flex flex-col w-[70%] text-[#1B1B1B] my-24 gap-20 text-3xl font-semibold text-center justify-center text-light">
+      <div className="flex flex-col w-[95%] lg:w-[70%] text-[#1B1B1B] my-24 gap-20 text-3xl font-semibold text-center justify-center text-light">
         <a className="text-5xl mb-2">Por que trabalhar conosco e aumentar suas vendas online?</a>
         <a>Oferecemos serviços em “blocos”, ou seja, o atendimento mais adequado para sua marca e para você.</a>
         <a>Atendimento total! Nossa equipe estará sempre disponível para esclarecer qualquer dúvida que surgir a qualquer momento.</a>
@@ -90,8 +90,8 @@ export default function Home() {
       target="_blank"
       rel="noopener noreferrer"
       style={{boxShadow: "0px 0px 20px 2px rgba(9,107,255,0.9)"}}
-      className="bg-light h-[100px] w-[50%] p-2 mb-4 mt-6 text-2xl text-web-blue 
-      font-semibold rounded-2xl shadow-xl cursor-pointer flex justify-center items-center">
+      className="bg-light h-[100px] lg:w-[50%] w-[90%] p-2 mb-4 mt-6 text-2xl text-web-blue 
+      font-semibold rounded-2xl shadow-xl cursor-pointer flex justify-center text-center items-center">
        QUERO FAZER MEU ORÇAMENTO GRATUITO AGORA!
       </a>
     </main>
