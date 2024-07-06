@@ -75,8 +75,9 @@ export default function Home() {
       rel="noopener noreferrer"
       style={{boxShadow: "0px 0px 20px 2px rgba(9,107,255,0.9)"}}
       className="bg-light text-web-blue py-6 px-6 w-[90%] m-2 text-3xl 
-      font-semibold rounded-full cursor-pointer justify-center text-center">
-        ENTRE EM CONTATO E FAÇA O ORÇAMENTO GRATUITO!
+      font-semibold rounded-full cursor-pointer items-center justify-center text-center">
+        ENTRE EM CONTATO!
+        FAÇA O ORÇAMENTO GRATUITO!
       </a>
       <div className="flex flex-col w-[95%] lg:w-[70%] text-[#1B1B1B] my-24 gap-20 text-3xl font-semibold text-center justify-center text-light">
         <a className="text-5xl mb-2">Por que trabalhar conosco e aumentar suas vendas online?</a>
